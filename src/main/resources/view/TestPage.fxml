@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.eleron.osa.lris.otcenka.controller.TestPageController">
+   <children>
+      <Button fx:id="button" onAction="#changeLabel" layoutX="415.0" layoutY="309.0" mnemonicParsing="false" text="Нажми" />
+      <Label fx:id="label" layoutX="143.0" layoutY="183.0" text="Текст не из БАЗЫ ДАННЫХ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
